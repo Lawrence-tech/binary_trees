@@ -23,8 +23,9 @@ Data structures:
 
 Used the following data structures and types for binary trees.
 
-  Basic Binary Tree
-        /**
+Basic Binary Tree
+       
+/**
         * struct binary_tree_s - Binary tree node
         *
         * @n: Integer stored in the node
@@ -33,8 +34,9 @@ Used the following data structures and types for binary trees.
         * @right: Pointer to the right child node
         */
 
-   struct binary_tree_s
-        {
+struct binary_tree_s
+        
+{
         int n;
         struct binary_tree_s *parent;
         struct binary_tree_s *left;
